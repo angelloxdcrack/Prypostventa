@@ -1,0 +1,111 @@
+<div  id="content-wrapper" >
+    <!-- Page Content -->
+    <div id="page-content-wrapper" class="w-100 bg-light-blue">
+      <nav class="navbar navbar-expand-lg navbar-light bg-success border-bottom">
+        <div class="container-fluid">
+          <div class="logo" >
+               <h2 class="text-white">HAR<span class="letrat">T</span>ECH</h2>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mt-2 mt-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link text-light letrasmenu" [routerLink]="['/producto']" id="navbarDropdown" >
+                 Computacion
+                </a>
+               </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-light letrasmenu" [routerLink]="['/producto']" id="navbarDropdown" >
+                 Seguridad e Informatica
+              </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-light letrasmenu" [routerLink]="['/producto']" id="navbarDropdown" >
+                 Construccion
+              </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-light letrasmenu" [routerLink]="['/producto']" id="navbarDropdown" >
+                  Uniformes
+                 </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-light letrasmenu" [routerLink]="['/producto']" id="navbarDropdown" >
+                  Conectividad
+                 </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-light letrasmenu" [routerLink]="['/producto']" id="navbarDropdown" >
+                  Utiles de oficina
+                 </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-light dropdown-toggle letrasmenu" [routerLink]="['/producto']" id="navbarDropdown" role="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="icon ion-md-person"></i>
+                  Administrador
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item " [routerLink]="['/producto']">Mi perfil</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" (click)=(logout())>Cerrar sesión</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div  class="container-fluid p-2 bg-light contenedorglobal">
+        <section>
+          <!-- Highlights -->
+            <router-outlet></router-outlet>
+          <!-- Fin highlights -->
+          <!-- Fin Eventos -->
+        </section>
+      </div>
+    <!-- Fin Page Content -->
+  </div>
+
+  <!--
+  <footer>
+    <nav class="navbar navbar-expand-md navbar-light bg-light ">
+      <div class="collapse navbar-collapse fixed-bottom prueba ">
+        <ul class="navbar-nav mr-4">
+          <li class="nav-item mr-3">
+            <a href="#" class="list-group-item text-white bg-success"><i
+              class="icon ion-md-home lead mr-2"></i>Inicio</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a href="#" class="list-group-item list-group-item-action  text-white bg-success"><i
+              class="icon ion-md-archive lead mr-2"></i>Almacen</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a href="#" class="list-group-item list-group-item-action text-white bg-success"><i
+              class="icon ion-md-cart lead mr-2"></i>Caja</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a href="#" class="list-group-item list-group-item-action  text-white bg-success"><i
+              class="icon ion-md-cash lead mr-2"></i>Venta</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a href="#" class="list-group-item list-group-item-action  text-white bg-success"><i
+              class="icon ion-md-clipboard lead mr-2"></i>Consultas</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a href="#" class="list-group-item list-group-item-action text-white bg-success"><i
+              class="icon ion-md-people lead mr-2"></i>Usuarios</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a href="#" class="list-group-item list-group-item-action text-white bg-success"> <i
+              class="icon ion-md-settings lead mr-2"></i> Configuración</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+   </footer>-->
+  <!-- Fin wrapper -->
+
+

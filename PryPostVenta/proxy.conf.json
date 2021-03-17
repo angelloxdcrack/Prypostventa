@@ -1,0 +1,8 @@
+{
+   "/admin/*": {
+     "target":"https://staginghardtech.siansystem.com",
+     "secure": false,
+     "changeOrigin": true
+   }
+
+}
